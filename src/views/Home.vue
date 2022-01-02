@@ -10,7 +10,7 @@ import Tasks from "../components/Tasks.vue";
 import AddTask from "../components/AddTask.vue";
 export default {
   name: 'Home',
-  components: [Tasks, AddTask],
+  components: {Tasks, AddTask},
   data() {
     return {
       tasks: []
